@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - in this program we use two for loops
  *
- * Description: print the alphabet in this order
  *
- * Return. Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
-	
-	for (i = 97; i <= 122; i++)
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
-	for (i = 65; i <= 90; i++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		putchar(i);
 	}
+	putchar('\n');
+
 	return (0);
 }
