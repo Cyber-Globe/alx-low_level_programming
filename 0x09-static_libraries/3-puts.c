@@ -7,7 +7,7 @@
  */
 void _puts(char *str)
 {
-	/* Code to print string */
+	(void)str; /* Ignore unused parameter warning */
 }
 
 #include <stdio.h>
