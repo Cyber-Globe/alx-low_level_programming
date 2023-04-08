@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * _memeset - fill a block of memory
+ * _memeset - fills a block of memory with constant byte
  * @s: starting the address
- * @b: the value
- * @n: bytes to change
- *
- * Return: change arryes
+ * @b: the value that remain constant
+ * @n: bytes to change in max
+ * desc: 
+ * Return: a pointer of memory
  */
 char *_memset(char *s, char b, unsigned int n)
 {
